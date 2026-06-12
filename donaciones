@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donaciones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            background-color: #f4f4f4;
+        }
+
+        .donacion {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #003087;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="donacion">
+        <h1>Apoya Nuestro Proyecto</h1>
+        <p>Tu donación nos ayuda a seguir adelante.</p>
+
+        <form action="https://www.paypal.com/donate" method="post" target="_blank">
+            <input type="hidden" name="business" value="etvmediapro@gmail.com">
+            <input type="hidden" name="currency_code" value="EUR">
+
+            <input type="image"
+                   src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donateCC_LG.gif"
+                   border="0"
+                   name="submit"
+                   title="Donar con PayPal"
+                   alt="Donar con PayPal">
+        </form>
+    </div>
+
+</body>
+</html>
