@@ -1,0 +1,18 @@
+{
+  "name": "BCN Gospel Channel",
+  "short_name": "BCN Gospel",
+  "description": "Una ventana de esperanza para el mundo. Televisión cristiana desde Barcelona.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101a2b",
+  "theme_color": "#142d4e",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
